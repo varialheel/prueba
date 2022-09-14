@@ -1,0 +1,7 @@
+.producto__img {
+    width: 50%;
+    margin: auto;
+}
+.producto__desc {
+    text-align: justify;
+}

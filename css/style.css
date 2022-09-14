@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+a {
+    text-decoration: none;
+}
+a,a:hover {
+    color: #000;
+}
+.navbar-brand {
+    padding: 0;
+}
+.nav__logo {
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+}
+.label {
+    font-family: 'Mukta','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/* ------------------------------------------------------- */
+.selectores {
+    position: relative;
+    bottom: 2em;
+    background-color: rgba(255,255,255,0.4);
+}
+.slider__selector{
+    width: 20px;
+    height: 20px;
+    border-radius: 25%;
+    background-color: black;
+}
+.slider__selector--active {
+    background-color: red;
+}
+.slider__arrow {
+    margin: auto 0;
+}
+.prueba {
+    height: 100vh;
+}
+.up {
+    display: none;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+.bi-arrow-up-circle-fill {
+    width: 3em;
+    height: 3em;
+    border-radius: 25%;
+}
+/* -------------------footer--------------- */
+.naranja, .naranja_hover:hover{
+    background-color: #db6930;
+}
+.footer__copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.card__img {
+    width: 100%;
+    height: 12em; 
+}
+.form {
+    background-color: rgba(219, 105, 48,0.8);
+}
+.carro {
+    min-height: 70vh;
+}
